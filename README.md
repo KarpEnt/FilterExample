@@ -6,9 +6,9 @@
 
 ## Single-page application, built with:
 
-* [ASP.NET Core] and [C#] for cross-platform server-side code 
-* [React], [Redux], and [TypeScript] for client-side code
-* [Webpack] for building and bundling client-side resources
+* [ASP.NET Core](https://dotnet.microsoft.com/apps/aspnet) and [C#](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/index) for cross-platform server-side code 
+* [React](https://reactjs.org/), [Redux](https://redux.js.org/), and [TypeScript](http://www.typescriptlang.org/) for client-side code
+* [Webpack](https://webpack.github.io/) for building and bundling client-side resources
 * [Bootstrap](https://getbootstrap.com/) for layout and styling
 To help you get started, we've also set up:
 
