@@ -1,6 +1,27 @@
 # FilterExample
 
-Documentation & tutorials, useful links:
+### Latest changes:
+* Updated npm packages (security vulnerability detected in bootstrap >= 3.0.0, < 3.4.1 defined in package.json). 
+* Solution target updated to .NET Core 2.2.
+
+## Single-page application, built with:
+
+* [ASP.NET Core] and [C#] for cross-platform server-side code 
+* [React], [Redux], and [TypeScript] for client-side code
+* [Webpack] for building and bundling client-side resources
+* [Bootstrap](https://getbootstrap.com/) for layout and styling
+To help you get started, we've also set up:
+
+## Update packages
+To update all of the `npm` dependencies to their latest versions:
+```sh
+cd $(PROJECTS_ROOT_PATH)\FilterExample\source\SampleWebApp\SampleWebApp
+npm i -g npm-check-updates
+ncu -u
+npm install
+```
+
+## Documentation & tutorials, useful links:
 
 [ReactJS.NET Tutorial (ASP.NET Core)](https://reactjs.net/getting-started/tutorial.html)
 
